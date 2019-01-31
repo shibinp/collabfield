@@ -320,3 +320,19 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 58ms (Views: 56.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:41:18 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 480ms (Views: 306.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:41:30 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 51.2ms)
+
+

@@ -253,3 +253,70 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 425ms (Views: 419.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:21:13 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 1797ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: partials/layout/*.
+Load paths:
+  /home/shibin/study_rails_projects/collabfield/app/assets/config
+  /home/shibin/study_rails_projects/collabfield/app/assets/images
+  /home/shibin/study_rails_projects/collabfield/app/assets/javascripts
+  /home/shibin/study_rails_projects/collabfield/app/assets/stylesheets
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/actioncable-5.1.6.1/lib/assets/compiled
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/actionview-5.1.6.1/lib/assets/compiled
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/shibin/study_rails_projects/collabfield/node_modules
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/fonts
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/images
+  /home/shibin/.rvm/gems/ruby-2.3.1/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    4:     <title>Collabfield</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:25
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2389455359508161980_44937760'
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:23:41 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 1448ms (Views: 1445.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:27:58 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 60.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:28:01 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-31 15:28:02 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.2ms)
+
+

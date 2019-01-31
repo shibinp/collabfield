@@ -11,5 +11,15 @@
  * It is generally better to create a new file per style scope.
  *
  */
+//Bootstrap
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+//Variables
+@import "base/variables";
+
+
+// partails - main css files
+
+@import "partials/layout/*";
